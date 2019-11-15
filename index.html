@@ -1,17 +1,9 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>TFJS is Started!</title>
-    <script src = "https://requirejs.org/docs/release/2.3.6/minified"></script>
     <script src="https://unpkg.com/@tensorflow/tfjs"></script>
-    <!-- <script src="https://unpkg.com/@tensorflow-models/speech-commands"></script> -->
+    <script src="https://unpkg.com/@tensorflow-models/speech-commands"></script>
   </head>
   <body>
-    <button id="left" onmousedown="collect(0)" onmouseup="collect(null)">Left</button>
-    <button id="left" onmousedown="collect(1)" onmouseup="collect(null)">Right</button>
-    <button id="left" onmousedown="collect(2)" onmouseup="collect(null)">Noise</button>
-    <br/><br/>
-    <button id="train" onclick="train()">Train</button>
     <div id="console"></div>
     <script src="index.js"></script>
   </body>
